@@ -1,0 +1,102 @@
+/* ----- BACK ----- */
+
+* {
+	margin: 0px; 
+	padding: 0px; 
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+	height: 100%;
+    background-color: #F3EBF6;
+    text-align: center;
+}
+
+
+
+
+
+/* ----- INDEX ----- */
+
+.main {
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 400px;
+    margin: 7em auto;
+    border-radius: 1.5em;
+    box-shadow: 0 10px 35px 2px rbga(0, 0, 0, 0.15);
+}
+
+.connect {
+    padding-top: 60px;
+    color: #1c3e87;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+form {
+    padding-top: 40px;
+}
+
+#login {
+    width: 75%;
+    color: rgb(40, 50, 55);
+    font-weight: 700;
+    font-size: 15px;
+    background: rgba(135, 125, 125, 0.05);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#password {
+    width: 75%;
+    color: rgb(40, 50, 55);
+    font-weight: 700;
+    font-size: 15px;
+    background: rgba(135, 125, 125, 0.05);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#login:focus {
+    border: 2px solid rgba(0, 0, 0, 0.18);
+}
+
+#password:focus {
+    border: 2px solid rgba(0, 0, 0, 0.18);
+}
+
+.envoie {
+    cursor: pointer;
+    border-radius: 5em;
+    color: #ffffff;
+    background-color: #1c3e87;
+    border: 0;
+    font-size: 18px;
+    box-shadow: 0, 0, 20px, 1px rgba(0, 0, 0, 0.05);
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    width: 80%;
+    margin-bottom: 25px;
+}
+
+.envoie:hover {
+    background-color: #668ad8;
+}
+
+.erreur {
+    font-weight: bold;
+    color: red;
+}
